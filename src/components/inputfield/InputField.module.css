@@ -1,0 +1,35 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    flex: 1;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.clearButton {
+    position: absolute;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.clearButton:hover {
+    color: #000;
+}
