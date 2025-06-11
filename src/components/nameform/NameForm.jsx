@@ -46,9 +46,6 @@ const NameForm = ({ setResult, setIsLoading, setError }) => {
     // Очистка формы
     const handleClearForm = () => {
         setFormData(INITIALIZE_FORMDATA);
-        setResult(null);
-        setIsLoading(false);
-        setError(null);
 
         localStorage.removeItem('savedFormData');
     }
