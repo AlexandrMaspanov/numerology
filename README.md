@@ -1,12 +1,40 @@
-# React + Vite
+# Numerology / Нумерология
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a pet project that calculates numerology numbers and gives their interpretations in Russian based on user input name, surname, birth date.
 
-Currently, two official plugins are available:
+Это pet-проект, который рассчитывает числовые значения нумерологии и показывает их толкование на русском языке на основе имени, фамилии, даты рождения.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features / Особенности
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Calculates numerology numbers
+- Shows interpretations (automatically translate)
+- Input is saved to localStorage
+- Responsive, simple design
+
+/
+- Расчёт чисел нумерологии
+- Толкование чисел (автоматический перевод)
+- Ввод сохраняется в localStorage
+- Адаптивный. простой интерфейс
+
+---
+
+## Built With / Используемые технологии
+
+- React + Vite
+- Axios
+- CSS Modules
+- Roxy Numerology API
+- Google Translate API (with proxy)
+
+---
+
+## Getting Started / Начало работы
+
+```bash
+git clone https://github.com/AlexandrMaspanov/numerology.git
+cd numerology
+npm install
+npm run dev
