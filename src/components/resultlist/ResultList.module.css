@@ -1,0 +1,20 @@
+.resultList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    list-style: none;
+    border-radius: 1rem;
+    background-color: #e7d1fb;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.resultList li h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.resultList li p {
+    color: #555;
+}
