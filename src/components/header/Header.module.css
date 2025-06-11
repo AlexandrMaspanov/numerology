@@ -1,0 +1,23 @@
+.header {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: #3c096c;
+}
+
+.subTitle {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #4f4f4f;
+}

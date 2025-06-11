@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from './components/header/Header';
 import NameForm from "./components/nameform/NameForm";
 import Result from './components/result/Result';
 import Loader from './components/UI/loader/Loader';
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <main>
         <div className='wrapper'>
           <NameForm
