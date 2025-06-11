@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import NameForm from "./components/nameform/NameForm";
+import Result from './components/result/Result';
+import Loader from './components/UI/loader/Loader';
 
 function App() {
   const [result, setResult] = useState(null);
@@ -15,6 +17,17 @@ function App() {
             setIsLoading={setIsLoading}
             setError={setError}
           />
+          {isLoading
+            ?
+            <div className='loaderContainer'>
+              <Loader />
+            </div>
+            :
+            <Result
+              result={result}
+              error={error}
+            />
+          }
         </div>
       </main>
     </>
