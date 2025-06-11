@@ -1,0 +1,46 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background-color: #eee;
+    color: #2e2e2e;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.loaderContainer {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
